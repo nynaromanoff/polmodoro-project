@@ -1,7 +1,6 @@
 version: 2.1
 orbs:
   node: circleci/node@5
-  reactjs: ci-poc/reactjs@0.0.3
 jobs:
   build-node:
     executor: node/default
@@ -20,7 +19,10 @@ jobs:
       - store_artifacts:
           path: ~/artifacts
           destination: node-build
+          
 workflows:
   build:
     jobs:
       - build-node
+
+      
