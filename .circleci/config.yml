@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@5
-  eslint: arrai/eslint@8.1.0
+  reactjs: ci-poc/reactjs@0.0.3
 jobs:
   build-node:
     executor: node/default
