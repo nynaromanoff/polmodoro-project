@@ -1,4 +1,3 @@
-import type React from "react"
 import styles from './Logo.module.css'
 import { TimerIcon } from "lucide-react"
 
